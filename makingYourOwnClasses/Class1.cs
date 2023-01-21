@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace makingYourOwnClasses
 {
     //solution explore -> rigt click -> add -> class
-    internal class Class1
+     class Class1
     {
         // have data , methods, constructors
 
         private string title;
         private string description;
         private int pages;
-        private int wordCount;
+       // private int wordCount;
 
         public Class1(string title, string description, int pages)
         {
@@ -33,5 +33,6 @@ namespace makingYourOwnClasses
             this.title = title;
         }
 
+        
     }
 }
