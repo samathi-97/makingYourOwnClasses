@@ -22,5 +22,16 @@ namespace makingYourOwnClasses
             this.description = description;
             this.pages = pages;
         }
+
+        public string getTitle()
+        {
+            return title;
+        }
+
+        public void setTitle(string title)
+        {
+            this.title = title;
+        }
+
     }
 }
